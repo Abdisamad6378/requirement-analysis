@@ -121,5 +121,49 @@ Automated by the System: Send Notification (e.g., confirmation emails, reminders
 
 https://drive.google.com/file/d/1gtHpuNP1H4LlVMq13ELsv0Ou4Yeci0Wt/view?usp=drive_link
 
+ “Acceptance Criteria.”
+
+ What are Acceptance Criteria and Why are They Important?
+Acceptance Criteria (AC) are a set of predefined, specific, and testable conditions that a software feature must satisfy to be accepted by a user, customer, or other stakeholder. They are written from the user's perspective and define the "done" state for a user story or requirement.
+
+Importance in Requirement Analysis:
+
+Create Shared Understanding: They eliminate ambiguity by providing precise details, ensuring that developers, testers, and stakeholders all have the same understanding of what needs to be built.
+
+Define Scope: They prevent scope creep by clearly outlining the boundaries of a feature, making it clear what is included and, just as importantly, what is not.
+
+Guide Development and Testing: Developers use AC to code the right functionality, and Quality Assurance (QA) testers use them as the basis for creating test cases. Essentially, if all AC pass, the feature is complete.
+
+Facilitate User Acceptance Testing (UAT): They provide the checklist that stakeholders use to formally sign off on a feature, confirming it meets their needs.
+
+Well-written acceptance criteria are clear, concise, testable, and user-focused.
+
+Example: Acceptance Criteria for the "Checkout Feature"
+Feature/User Story: As a Customer, I want to complete the booking reservation process so that I can confirm my spot and receive a confirmation.
+
+Acceptance Criteria:
+
+Scenario: Successful Booking with Valid Details
+
+AC 1: Given I am on the checkout page and have selected a valid time slot, when I enter all required details (name, email, phone number), and click "Confirm Booking", then I should see a success message with a unique booking confirmation number.
+
+AC 2: Given a successful booking, then the system must reduce the available capacity for that time slot by the number of guests I specified.
+
+AC 3: Given a successful booking, then the system must send a confirmation email to the provided email address within 5 minutes. The email must contain the booking details (confirmation number, service, date, time, number of guests).
+
+Scenario: Preventing Booking with Invalid Input
+
+AC 4: Given I am on the checkout page, when I click "Confirm Booking" without entering my email address, then the form should not submit and I should see an inline error message stating "Email address is required".
+
+AC 5: Given I have entered an invalid email address (e.g., missing the '@' symbol), when I click "Confirm Booking", then the form should not submit and I should see an inline error message stating "Please enter a valid email address".
+
+Scenario: Handling Unavailable Time Slots
+
+AC 6: Given a time slot becomes fully booked after I loaded the page but before I click "Confirm Booking", when I try to complete the checkout, then the system must prevent the booking, display a clear error message explaining the slot is no longer available, and redirect me to the availability search page to choose a new time.
+
+Scenario: User Changes Mind
+
+AC 7: Given I am on the checkout page, when I click the "Cancel" button, then I should be navigated back to the service details page without creating a booking, and my selected time slot should be released for others to book.
+
 
 

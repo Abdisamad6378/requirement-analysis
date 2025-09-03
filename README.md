@@ -53,4 +53,36 @@ The final activity ensures that the documented SRS accurately reflects the stake
 
 Key Techniques: Organizing formal reviews and walkthroughs of the SRS, creating prototypes for early feedback, and developing test cases to ensure each requirement can be tested upon completion.
 
+"Types of reqirement".
+
+Functional Requirements (FRs)
+Definition: Functional Requirements describe what the system must do—the specific behaviors, functions, and features it must have. They define the interactions between the system and its users, and between the system and other external systems. They are typically expressed as "The system shall..." and are directly visible to the end-user.
+
+Examples for the Booking Management System:
+
+FR1 (User Authentication): The system shall allow a user to create a new account by providing an email address and a password.
+
+FR2 (Booking Creation): The system shall allow a registered user to book a service by selecting a date, time, and providing the number of guests.
+
+FR3 (Availability Check): The system shall display available time slots for a selected service in real-time, preventing the selection of booked slots.
+
+FR4 (Admin Management): The system shall allow an administrator to view, confirm, and cancel any booking made by any user.
+
+FR5 (Notification): The system shall automatically send an email confirmation to the user upon successful booking creation.
+
+Non-Functional Requirements (NFRs)
+Definition: Non-Functional Requirements describe how well the system performs its functions. They define the quality attributes, constraints, and performance criteria of the system. They are often called the "-ilities" and are sometimes only noticed by the user if they are absent or poorly implemented.
+
+Examples for the Booking Management System:
+
+NFR1 (Performance): The system shall load any webpage completely in under 3 seconds under normal load. Checking for available time slots shall return results in less than 1 second.
+
+NFR2 (Usability): A first-time user shall be able to successfully complete a booking within 3 minutes without any external guidance. The system shall comply with WCAG 2.1 AA accessibility standards.
+
+NFR3 (Security): All user passwords shall be hashed using the bcrypt algorithm before storage. Customer users shall only be able to view and modify their own bookings.
+
+NFR4 (Availability): The web application shall be available for use 99.8% of the time, with scheduled maintenance communicated at least 24 hours in advance.
+
+NFR5 (Scalability): The system shall be designed to handle a 50% increase in simultaneous users without a significant degradation in performance.
+
 

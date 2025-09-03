@@ -53,7 +53,7 @@ The final activity ensures that the documented SRS accurately reflects the stake
 
 Key Techniques: Organizing formal reviews and walkthroughs of the SRS, creating prototypes for early feedback, and developing test cases to ensure each requirement can be tested upon completion.
 
-"Types of Requirement".
+ ["Types of Requirements"]
 
 Functional Requirements (FRs)
 Definition: Functional Requirements describe what the system must do—the specific behaviors, functions, and features it must have. They define the interactions between the system and its users, and between the system and other external systems. They are typically expressed as "The system shall..." and are directly visible to the end-user.

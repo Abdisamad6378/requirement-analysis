@@ -119,6 +119,7 @@ For the Administrator: Manage Bookings (View/Confirm/Cancel), Manage Services (A
 
 Automated by the System: Send Notification (e.g., confirmation emails, reminders).
 
-<img width="663" height="748" alt="alx-booking-uc" src="https://github.com/user-attachments/assets/801885dd-8f32-49e4-b002-da03b69867c9" />
+<img width="663" height="748" alt="alx-booking-uc drawio" src="https://github.com/user-attachments/assets/70dbd596-2c87-4323-a5e3-f51df7c8193d" />
+
 
 

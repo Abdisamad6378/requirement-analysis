@@ -118,8 +118,7 @@ For the Customer: Manage Account, Search for Availability, Make Booking, View Bo
 For the Administrator: Manage Bookings (View/Confirm/Cancel), Manage Services (Add/Edit/Remove), Manage Availability.
 
 Automated by the System: Send Notification (e.g., confirmation emails, reminders).
-
-<img width="663" height="748" alt="alx-booking-uc drawio" src="https://github.com/user-attachments/assets/70dbd596-2c87-4323-a5e3-f51df7c8193d" />
+https://drive.google.com/file/d/1ENQMBpY57gHHOhuEN0O1J_l2hsHoNWGX/view?usp=drive_link
 
 
 

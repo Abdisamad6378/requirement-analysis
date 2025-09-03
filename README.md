@@ -118,7 +118,8 @@ For the Customer: Manage Account, Search for Availability, Make Booking, View Bo
 For the Administrator: Manage Bookings (View/Confirm/Cancel), Manage Services (Add/Edit/Remove), Manage Availability.
 
 Automated by the System: Send Notification (e.g., confirmation emails, reminders).
-https://drive.google.com/file/d/1ENQMBpY57gHHOhuEN0O1J_l2hsHoNWGX/view?usp=drive_link
+
+https://drive.google.com/file/d/1gtHpuNP1H4LlVMq13ELsv0Ou4Yeci0Wt/view?usp=drive_link
 
 
 

@@ -21,3 +21,36 @@ Testing: QA engineers create test cases, scenarios, and validation plans directl
 3. Ensures the Final Product Delivers Value and Meets User Needs
 Description:
 The ultimate goal of any software project is to solve a problem or fulfill a need for its users. Requirement analysis is the dedicated phase for deeply understanding those user needs, pain points, and workflows. It involves techniques like interviewing stakeholders, creating user stories, and developing use cases to ensure the software is built from the user's perspective.
+
+ “Key Activities in Requirement Analysis.”
+ Requirement Gathering
+
+This is the foundational activity of collecting all possible information and needs from various stakeholders (clients, users, business analysts, subject matter experts) about what the software should do.
+
+Key Techniques: Conducting interviews, distributing surveys and questionnaires, studying existing documentation, and analyzing competing products.
+
+Requirement Elicitation
+
+While often used interchangeably with gathering, elicitation is a more nuanced and active process. It involves drawing out deep, often unexpressed or unclear, needs from stakeholders. It focuses on understanding the underlying business problems and user goals, not just the stated wants.
+
+Key Techniques: Facilitating workshops (e.g., JAD sessions), creating user stories, conducting focus groups, and employing observation to see how users currently perform their tasks.
+
+Requirement Documentation
+
+This activity involves formally recording the gathered and elicited requirements in a clear, consistent, and structured manner. The output is typically a Software Requirements Specification (SRS) document, which serves as the single source of truth for the project.
+
+Key Outputs: Functional Requirements (features the system must have), Non-Functional Requirements (quality attributes like performance, security), User Stories, Use Cases, and Process Models.
+
+Requirement Analysis and Modeling
+
+This step involves critically examining the documented requirements to ensure they are clear, complete, consistent, and unambiguous. Modeling is used to visualize the requirements to uncover errors, gaps, and complexities before implementation.
+
+Key Techniques: Creating visual models like Data Flow Diagrams (DFDs) to show how data moves, Entity-Relationship Diagrams (ERDs) to define data structures, and Use Case Diagrams to illustrate user-system interactions. Prioritizing requirements (e.g., using the MoSCoW method) is also a crucial part of analysis.
+
+Requirement Validation
+
+The final activity ensures that the documented SRS accurately reflects the stakeholders' needs and that all requirements are verifiable. Its goal is to get formal approval from stakeholders, confirming that "This is what we need."
+
+Key Techniques: Organizing formal reviews and walkthroughs of the SRS, creating prototypes for early feedback, and developing test cases to ensure each requirement can be tested upon completion.
+
+

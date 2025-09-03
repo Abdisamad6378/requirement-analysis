@@ -37,6 +37,8 @@ Key Techniques: Facilitating workshops (e.g., JAD sessions), creating user stori
 
 Requirement Documentation
 
+
+
 This activity involves formally recording the gathered and elicited requirements in a clear, consistent, and structured manner. The output is typically a Software Requirements Specification (SRS) document, which serves as the single source of truth for the project.
 
 Key Outputs: Functional Requirements (features the system must have), Non-Functional Requirements (quality attributes like performance, security), User Stories, Use Cases, and Process Models.
@@ -84,5 +86,37 @@ NFR3 (Security): All user passwords shall be hashed using the bcrypt algorithm b
 NFR4 (Availability): The web application shall be available for use 99.8% of the time, with scheduled maintenance communicated at least 24 hours in advance.
 
 NFR5 (Scalability): The system shall be designed to handle a 50% increase in simultaneous users without a significant degradation in performance.
+
+ “Use Case Diagrams.”
+
+ A Use Case Diagram is a visual representation of the interactions between the users (called "actors") and a system. It captures the system's functional requirements in terms of how a user will ultimately use it. The diagram outlines the goals of the actors and the various ways (use cases) they interact with the system to achieve those goals.
+
+Benefits of Use Case Diagrams:
+Simplify Complex Systems: They provide a high-level, easy-to-understand overview of the system's functionality.
+
+Improve Communication: They serve as an excellent tool for discussion between stakeholders, developers, and designers, ensuring a shared understanding.
+
+Identify Actors and Goals: They help in clearly identifying all the different types of users and what they need to accomplish.
+
+Define System Scope: The boundary of the system is clearly drawn, showing what is inside (system functionality) and what is outside (the actors).
+
+Use Case Diagram for the Booking Management System
+The diagram below illustrates the primary actors and their interactions with the BookEase system.
+
+Actors:
+
+Customer: The end-user who makes and manages their bookings.
+
+Administrator: The business owner or manager who manages the system's services and overall bookings.
+
+System: An external, non-human actor responsible for automated tasks like sending notifications.
+
+Key Use Cases:
+
+For the Customer: Manage Account, Search for Availability, Make Booking, View Booking History, Cancel Booking.
+
+For the Administrator: Manage Bookings (View/Confirm/Cancel), Manage Services (Add/Edit/Remove), Manage Availability.
+
+Automated by the System: Send Notification (e.g., confirmation emails, reminders).
 
 

@@ -102,8 +102,7 @@ Define System Scope: The boundary of the system is clearly drawn, showing what i
 
 Use Case Diagram for the Booking Management System
 The diagram below illustrates the primary actors and their interactions with the BookEase system.
-<img width="663" height="748" alt="alx-booking-uc drawio (2)" src="https://github.com/user-attachments/assets/cdf54617-1d2c-4155-9171-8d6058e0d580" />
-
+<img width="663" height="748" alt="image" src="https://github.com/user-attachments/assets/c0530112-9e66-42a3-9e42-f61e252fb14c" />
 
 Actors:
 

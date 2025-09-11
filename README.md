@@ -90,7 +90,7 @@ NFR5 (Scalability): The system shall be designed to handle a 50% increase in sim
  “Use Case Diagrams.”
 
  A Use Case Diagram is a visual representation of the interactions between the users (called "actors") and a system. It captures the system's functional requirements in terms of how a user will ultimately use it. The diagram outlines the goals of the actors and the various ways (use cases) they interact with the system to achieve those goals.
- https://drive.google.com/file/d/1bN3TJLD5BiwaiB3DddtpNGgIr-vE4_VI/view?usp=sharing
+![flow chart](alx-booking-uc.drawio.png)
 
 Benefits of Use Case Diagrams:
 Simplify Complex Systems: They provide a high-level, easy-to-understand overview of the system's functionality.
